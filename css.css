@@ -1,0 +1,119 @@
+.introContainer{
+    text-align: center;
+}
+.body {
+   background-color:rgb(7, 7, 100); 
+}
+.Heading {
+    text-align: center;
+    text-decoration: underline;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:goldenrod;
+    color:black;
+    font-size: 340%;
+}
+
+.IntroImg img {
+    width: 50%;
+    height:auto;
+    display:block;
+    margin: auto;
+    border-radius: 10px;
+
+}
+
+
+.aboutInfo{
+    text-align: center;
+    font-family:Impact, bangers, 'Arial Narrow Bold', sans-serif;
+    color:white;
+    background-color: black;
+    letter-spacing: 2px;
+
+}
+
+.athlete{
+    text-align: center ;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration-line: underline;
+    color:white;
+    border-color:black ;
+    background-color: rgb(7, 7, 100);
+}
+
+.athlete img {
+    height:300px;
+    width:auto;
+    display:block;
+    margin:auto;
+    object-fit: cover;
+    transition: transform 0.9s ease-in-out;
+
+}
+
+.athlete img:hover {
+    transform: scale(.7);
+
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 50%; /* Maximum width for the app */
+    margin: 20px auto; /* Center the app horizontally */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    background-color: black; /* White background for the app */
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+   
+    
+
+}
+
+.searchBox{
+    flex-direction: column;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    max-width: 100%;
+    font: size 30px;
+    letter-spacing: 4px;
+    word-spacing: 3px;
+   
+}
+.touchUP{
+    background-color: rgb(7, 7, 100);
+    background-image: url("https://ih1.redbubble.net/image.5343948299.3460/raf,360x360,075,t,fafafa:ca443f4786.u1.jpg");
+
+}
+
+.info-text{
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align:left;
+    letter-spacing: 4px;
+    word-spacing: 3px;
+    color:white;
+
+}
+
+.searchButton {
+    background-color: goldenrod;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+    border-radius: 8px;
+    width: 110px;
+    height: 30px;
+    font-size: 23px
+}
+
+.searchButton:hover{
+    background-color: rgb(7, 7, 100);
+    border-radius: 12px;
+}
